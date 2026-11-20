@@ -13,7 +13,7 @@
 
 <p align="center">
   <b>O manual da guilda para o conteúdo em grupo de Guild Wars 2.</b><br>
-  Raids, Fractals e Dungeons explicados em português, com vídeo de cada boss e PDF de cada guia.
+  Raids, Fractals e Dungeons explicados em português, com vídeo de cada boss.
 </p>
 
 <p align="center">
@@ -36,18 +36,17 @@
 
 Nunca fez conteúdo em grupo? Leia o **Endgame** primeiro. Ele ensina o que os outros guias dão por sabido: boons, roles, builds, o Golem de treino e o ArcDPS. Depois escolha o modo de jogo que você quer aprender.
 
-| | Guia | O que você aprende | |
-|:-:|---|---|:-:|
-| <img src="readme/endgame.jpg" width="200" alt=""> | **[Endgame](https://divinegw.github.io/guias/endgame.html)**<br><sub>comece por aqui</sub> | Tipos de dano, boons e conditions, Defiance Bar, atributos, roles, onde achar builds, Golem de treino, ArcDPS e como entrar num squad. | [PDF](https://divinegw.github.io/pdfs/endgame.pdf) |
-| <img src="readme/raids.jpg" width="200" alt=""> | **[Raids](https://divinegw.github.io/guias/raids.html)** | As 8 wings e os Raid Encounters, recompensas, Emboldened, Challenge Mode e Legendary Mode, com vídeo de cada boss e um resumo do que muda no CM. | [PDF](https://divinegw.github.io/pdfs/raids.pdf) |
-| <img src="readme/fractals.jpg" width="200" alt=""> | **[Fractals](https://divinegw.github.io/guias/fractals.html)** | Tiers e escalas, Agony Resistance, instabilidades, dailies, Ad Infinitum, títulos e o Challenge Mode das 7 Fractals que têm um. | [PDF](https://divinegw.github.io/pdfs/fractals.pdf) |
-| <img src="readme/dungeons.jpg" width="200" alt=""> | **[Dungeons](https://divinegw.github.io/guias/dungeons.html)** | As 8 dungeons clássicas de Tyria: onde fica a entrada, recompensas, achievements e vídeo de cada path. | [PDF](https://divinegw.github.io/pdfs/dungeons.pdf) |
-| <img src="readme/recursos-uteis.jpg" width="200" alt=""> | **[Recursos Úteis](https://divinegw.github.io/guias/recursos-uteis.html)** | 58 sites e ferramentas da comunidade (builds, conta, logs, gold, crafting, mapas, WvW e homestead), cada um com o que faz. | [PDF](https://divinegw.github.io/pdfs/recursos-uteis.pdf) |
-| <img src="readme/cursores.jpg" width="200" alt=""> | **[Divine Prisma](https://divinegw.github.io/guias/cursores.html)** | Cursores prismáticos feitos pela guilda: 21 desenhos, 7 cores e 5 tamanhos, com instalador para o Nexus. | [PDF](https://divinegw.github.io/pdfs/cursores.pdf) |
+| | Guia | O que você aprende |
+|:-:|---|:-:|
+| <img src="readme/endgame.jpg" width="200" alt=""> | **[Endgame](https://divinegw.github.io/guias/endgame.html)**<br><sub>comece por aqui</sub> | Tipos de dano, boons e conditions, Defiance Bar, atributos, roles, onde achar builds, Golem de treino, ArcDPS e como entrar num squad. |
+| <img src="readme/raids.jpg" width="200" alt=""> | **[Raids](https://divinegw.github.io/guias/raids.html)** | As 8 wings e os Raid Encounters, recompensas, Emboldened, Challenge Mode e Legendary Mode, com vídeo de cada boss e um resumo do que muda no CM. |
+| <img src="readme/fractals.jpg" width="200" alt=""> | **[Fractals](https://divinegw.github.io/guias/fractals.html)** | Tiers e escalas, Agony Resistance, instabilidades, dailies, Ad Infinitum, títulos e o Challenge Mode das 7 Fractals que têm um. |
+| <img src="readme/dungeons.jpg" width="200" alt=""> | **[Dungeons](https://divinegw.github.io/guias/dungeons.html)** | As 8 dungeons clássicas de Tyria: onde fica a entrada, recompensas, achievements e vídeo de cada path. |
+| <img src="readme/recursos-uteis.jpg" width="200" alt=""> | **[Recursos Úteis](https://divinegw.github.io/guias/recursos-uteis.html)** | 58 sites e ferramentas da comunidade (builds, conta, logs, gold, crafting, mapas, WvW e homestead), cada um com o que faz. |
+| <img src="readme/cursores.jpg" width="200" alt=""> | **[Divine Prisma](https://divinegw.github.io/guias/cursores.html)** | Cursores prismáticos feitos pela guilda: 21 desenhos, 7 cores e 5 tamanhos, com instalador para o Nexus. |
 
 ## Para baixar
 
-- **PDF de cada guia**, em A4, para ler offline ou numa segunda tela durante a luta. O link fica na tabela acima e no botão "Baixar PDF" de cada guia.
 - **[Configuração do Zyanore para o ArcDPS](https://divinegw.github.io/downloads/arcdps-zyanore.zip)**: o perfil de janelas de DPS do Zyanore, com a fonte e um passo a passo. O guia de [Endgame](https://divinegw.github.io/guias/endgame.html#arcdps) explica como instalar.
 - **[Divine Prisma](https://github.com/divinegw/divine-prisma)**: os cursores, com instalador para o Nexus e versão `.cur` para o YoloMouse.
 
@@ -82,13 +81,11 @@ Cada página é testada em **4 combinações**: tema claro e escuro, computador 
 | Layout | Rolagem para o lado, botões pequenos demais para o toque, títulos fora de ordem. |
 | Imagens e erros | Imagem quebrada, banner no tamanho errado, erro no console do navegador. |
 | Sumário | Clica em cada item de cada guia, com a rolagem suave ligada, e confere se o título parou logo abaixo do cabeçalho. |
-| PDF | Página em branco ou quase vazia no meio do PDF. |
 
 ### Por baixo do capô
 
 - O Astro gera cada arte em várias larguras, em WebP, e o navegador baixa só a que cabe na tela.
 - As abas seguem o padrão WAI-ARIA e funcionam pelo teclado (setas, Home e End). Toda imagem tem uma descrição do que mostra.
-- O PDF não é um print da tela. Tem estilo próprio para A4, mostra o conteúdo de todas as abas e não corta um bloco no meio.
 - Os endereços dos guias (`/guias/<guia>.html`) e as âncoras das seções não mudam. A guilda compartilha esses links no Discord, e link quebrado lá ninguém conserta.
 
 ## Créditos
